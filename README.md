@@ -31,17 +31,17 @@ No external dependencies are required.
 
 	1.	Clone the repository:
 
-git clone https://github.com/yourusername/automatic-file-organizer.git
+git clone https://github.com/arshad-khalid/file-organizer.git
 
 
 	2.	Navigate to the project directory:
 
-cd automatic-file-organizer
+cd file-organizer
 
 
 	3.	Run the application:
 
-python file_organizer.py
+python file-organizer.py
 
 
 
@@ -54,40 +54,25 @@ python file_organizer.py
 
 The application will categorize files by type and creation date, remove duplicates, and compress any files over 10 MB.
 
-## Code Overview
-
-## FileOrganizerGUI Class
-
-	•	create_widgets(): Sets up the graphical user interface elements, including labels, buttons, and the progress bar.
-	•	browse_source() and browse_dest(): Opens a file dialog for source and destination folder selection.
-	•	start_organizing_files(): Begins the file organization in a new thread.
-	•	organize_files(): Main method for organizing files, managing the progress bar and error handling.
-	•	process_file(): Moves or copies files, skips duplicates, and compresses large files.
-	•	Helper Methods:
-	•	get_file_type(): Determines file type based on MIME type.
-	•	get_file_date(): Retrieves the file’s creation date for subfolder categorization.
-	•	get_file_hash(): Calculates the MD5 hash of a file for duplicate detection.
-	•	compress_file(): Compresses files over 10 MB into a .zip file and removes the original.
-
 ## File Organization Structure
 
 Files in the destination directory will be organized as follows:
 
 Destination_Folder/
-├── Documents/
+├── **Documents**/
 │   ├── 2023-01/
-│   │   └── example.pdf
+│   │   └── example.**pdf**
 │   └── 2023-02/
-│       └── example.docx
-├── Images/
+│       └── example.**docx**
+├── **Images**/
 │   └── 2023-01/
-│       └── example.jpg
-├── Videos/
+│       └── example.**jpg**
+├── **Videos**/
 │   └── 2023-03/
-│       └── example.mp4
-└── Others/
+│       └── example.**mp4**
+└── **Others**/
     └── 2023-01/
-        └── example.txt
+        └── example.**txt**
 
 # Notes
 
@@ -101,8 +86,4 @@ This project is licensed under the MIT License. See the LICENSE file for details
 ## Contributing
 
 Contributions are welcome! Please fork the repository, create a new branch for your changes, and submit a pull request.
-
-## Contact
-
-For any questions or feedback, please reach out via GitHub Issues.
 
