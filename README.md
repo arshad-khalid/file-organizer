@@ -10,11 +10,11 @@ A Python application built with Tkinter to help organize files from a source dir
 	•	📦 Compression for Large Files: Automatically compresses files larger than 10 MB.
 	•	📈 Progress Tracking: Displays progress and status updates as files are organized.
 
-**🚀 Getting Started
+🚀 **Getting Started**
 
-✅ Prerequisites**
+✅ **Prerequisites**
 
-Make sure you have Python 3 installed. This application only uses standard libraries:
+Make sure you have Python 3.x installed. This application only uses standard libraries:
 
 	•	os
 	•	shutil
