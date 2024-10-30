@@ -1,20 +1,20 @@
-### Automatic File Organizer
+**📂 Automatic File Organizer**
 
-This is a Python application built with Tkinter to help organize files from a source directory to a destination directory. It categorizes files based on type, creation date, and file size, with options for moving or copying files and automatic compression of large files.
+A Python application built with Tkinter to help organize files from a source directory to a destination directory. This tool categorizes files based on type, creation date, and file size, with options for moving or copying files and automatic compression of large files.
 
-## Features
+✨ **Features**
 
-	•	Automatic Organization: Sorts files into folders by file type (Images, Videos, Documents, Others) and by month of creation.
-	•	Move or Copy: Choose between moving files (removing from source) or copying files (keeping source intact).
-	•	Duplicate Detection: Uses MD5 hashing to skip duplicate files in the destination.
-	•	Compression for Large Files: Automatically compresses files larger than 10 MB.
-	•	Progress Tracking: Displays progress and status updates as files are organized.
+	•	🗂️ Automatic Organization: Sorts files into folders by file type (Images, Videos, Documents, Others) and by month of creation.
+	•	🔀 Move or Copy: Choose between moving files (removing from source) or copying files (keeping source intact).
+	•	🚫 Duplicate Detection: Uses MD5 hashing to skip duplicate files in the destination.
+	•	📦 Compression for Large Files: Automatically compresses files larger than 10 MB.
+	•	📈 Progress Tracking: Displays progress and status updates as files are organized.
 
-### Getting Started
+**🚀 Getting Started
 
-## Prerequisites
+✅ Prerequisites**
 
-Make sure you have Python 3 installed. The following standard libraries are used:
+Make sure you have Python 3 installed. This application only uses standard libraries:
 
 	•	os
 	•	shutil
@@ -27,7 +27,7 @@ Make sure you have Python 3 installed. The following standard libraries are used
 
 No external dependencies are required.
 
-## Installation
+📥 **Installation**
 
 1.	Clone the repository:
 
@@ -43,7 +43,9 @@ No external dependencies are required.
 
 ```python file-organizer.py```
 
-## Usage
+
+
+💻 **Usage**
 
 	1.	Launch the application.
 	2.	Use the Browse buttons to select a source folder (containing files to organize) and a destination folder (where organized files will be stored).
@@ -52,36 +54,35 @@ No external dependencies are required.
 
 The application will categorize files by type and creation date, remove duplicates, and compress any files over 10 MB.
 
-## File Organization Structure
+**🗂️ File Organization Structure**
 
 Files in the destination directory will be organized as follows:
 ```
 Destination_Folder/
-├── **Documents**/
+├── Documents/
 │   ├── 2023-01/
-│   │   └── example.**pdf**
+│   │   └── example.pdf
 │   └── 2023-02/
-│       └── example.**docx**
-├── **Images**/
+│       └── example.docx
+├── Images/
 │   └── 2023-01/
-│       └── example.**jpg**
-├── **Videos**/
+│       └── example.jpg
+├── Videos/
 │   └── 2023-03/
-│       └── example.**mp4**
-└── **Others**/
+│       └── example.mp4
+└── Others/
     └── 2023-01/
-        └── example.**txt**
+        └── example.txt
 ```
-# Notes
+⚠️ **Notes**
 
 	•	Duplicate files with matching MD5 hashes in the destination will be skipped.
 	•	Files larger than 10 MB will be compressed into .zip archives to save space.
 
-## License
+📜 **License**
 
-This project is licensed under the MIT License. See the LICENSE file for details.
+This project is licensed under the MIT License.
 
-## Contributing
+🤝 **Contributing**
 
 Contributions are welcome! Please fork the repository, create a new branch for your changes, and submit a pull request.
-
