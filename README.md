@@ -29,21 +29,19 @@ No external dependencies are required.
 
 ## Installation
 
-	1.	Clone the repository:
+1.	Clone the repository:
 
-git clone https://github.com/arshad-khalid/file-organizer.git
-
-
-	2.	Navigate to the project directory:
-
-cd file-organizer
+```git clone https://github.com/arshad-khalid/file-organizer.git```
 
 
-	3.	Run the application:
+2.	Navigate to the project directory:
 
-python file-organizer.py
+```cd file-organizer```
 
 
+3.	Run the application:
+
+```python file-organizer.py```
 
 ## Usage
 
@@ -57,7 +55,7 @@ The application will categorize files by type and creation date, remove duplicat
 ## File Organization Structure
 
 Files in the destination directory will be organized as follows:
-
+```
 Destination_Folder/
 ├── **Documents**/
 │   ├── 2023-01/
@@ -73,7 +71,7 @@ Destination_Folder/
 └── **Others**/
     └── 2023-01/
         └── example.**txt**
-
+```
 # Notes
 
 	•	Duplicate files with matching MD5 hashes in the destination will be skipped.
