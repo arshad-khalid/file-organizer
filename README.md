@@ -34,12 +34,7 @@ No external dependencies are required.
 ```git clone https://github.com/arshad-khalid/file-organizer.git```
 
 
-2.	Navigate to the project directory:
-
-```cd file-organizer```
-
-
-3.	Run the application:
+2.	Run the application:
 
 ```python file-organizer.py```
 
